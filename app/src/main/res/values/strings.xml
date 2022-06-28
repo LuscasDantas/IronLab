@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IronLab</string>
+    <string name="contentDescriptionBtnHome">Home</string>
+    <string name="contentDescriptionBtnTreino">Home</string>
+    <string name="contentDescriptionBtnPerfil">Home</string>
+    <string name="contentDescriptionBtnMenu">Home</string>
+    <string name="progressText">Seu Progresso:</string>
+</resources>
