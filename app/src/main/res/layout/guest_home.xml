@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#353030">
+
+    <ImageButton
+        android:id="@+id/homeBtn"
+        android:layout_width="103dp"
+        android:layout_height="80dp"
+        android:background="#F82E2E"
+        android:contentDescription="@string/contentDescriptionBtnHome"
+        android:padding="18dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/treinoBtn"
+        android:layout_width="103dp"
+        android:layout_height="80dp"
+        android:background="#F82E2E"
+        android:contentDescription="@string/contentDescriptionBtnTreino"
+        android:padding="15dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/halteres" />
+
+    <ImageButton
+        android:id="@+id/perfilBtn"
+        android:layout_width="103dp"
+        android:layout_height="80dp"
+        android:background="#F82E2E"
+        android:contentDescription="@string/contentDescriptionBtnPerfil"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.668"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/user" />
+
+    <ImageButton
+        android:id="@+id/menuBtn"
+        android:layout_width="103dp"
+        android:layout_height="80dp"
+        android:background="#F82E2E"
+        android:contentDescription="@string/contentDescriptionBtnMenu"
+        android:padding="22dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/menu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="133dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/bemVindo"
+        android:textColor="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.286"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <ImageButton
+        android:id="@+id/peitoBtn"
+        android:layout_width="360dp"
+        android:layout_height="140dp"
+        android:alpha="0.7"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.164"
+        app:srcCompat="@drawable/supino" />
+
+    <ImageButton
+        android:id="@+id/bracoBtn"
+        android:layout_width="360dp"
+        android:layout_height="140dp"
+        android:alpha="0.7"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/peitoBtn"
+        app:layout_constraintVertical_bias="0.025"
+        app:srcCompat="@drawable/braco" />
+
+    <ImageButton
+        android:id="@+id/pernaBtn"
+        android:layout_width="360dp"
+        android:layout_height="140dp"
+        android:alpha="0.7"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bracoBtn"
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/pernas" />
+
+    <TextView
+        android:id="@+id/lblPeitoBtn"
+        android:layout_width="146dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:text="Peito"
+        android:textColor="#090909"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/peitoBtn"
+        app:layout_constraintEnd_toEndOf="@+id/peitoBtn"
+        app:layout_constraintStart_toStartOf="@+id/peitoBtn"
+        app:layout_constraintTop_toTopOf="@+id/peitoBtn"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <TextView
+        android:id="@+id/lblBracoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Braços"
+        android:textColor="#070707"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bracoBtn"
+        app:layout_constraintEnd_toEndOf="@+id/bracoBtn"
+        app:layout_constraintStart_toStartOf="@+id/bracoBtn"
+        app:layout_constraintTop_toTopOf="@+id/bracoBtn" />
+
+    <TextView
+        android:id="@+id/lblPernaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pernas"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pernaBtn"
+        app:layout_constraintEnd_toEndOf="@+id/pernaBtn"
+        app:layout_constraintStart_toStartOf="@+id/pernaBtn"
+        app:layout_constraintTop_toTopOf="@+id/pernaBtn" />
+
+    <TextView
+        android:id="@+id/txtUsuario"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="bottom|start"
+        android:textColor="#FAFAFA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/peitoBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
